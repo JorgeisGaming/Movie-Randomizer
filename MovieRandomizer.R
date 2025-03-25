@@ -32,10 +32,4 @@ sample(Watchlist2$NameAndYear, size = 10, prob = Watchlist2$Probabailities)
 
 
 
-URL<-"https://letterboxd.com/gioniku/watchlist/export/"
-Destfile<-"output.csv"
-download.file(URL, Destfile)
-
-read.csv(url("https://letterboxd.com/gioniku/watchlist/export/"))
-
 
